@@ -6,7 +6,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-areas:
+  grid-template-areas: 
     'header header header header header header'
     'nav nav nav nav nav nav'
     'section section section aside aside aside'
@@ -17,7 +17,7 @@
   width: 960px;
 }
 
-.grid-container > div {
+.grid-container > div, h3, p {
   background-color: #ebebeb;
   text-align: center;
   padding: 20px 0;
@@ -26,6 +26,13 @@
   color: '#777'
 
 }
-#container{
-    display: grid;
+#item6{
+  margin: 20px;
+  background-color: #777;
+  padding: 20px;
+  color: #ebebeb
+}
+.item7{
+  background-color: #ebebeb;
+  color: #777;
 }
